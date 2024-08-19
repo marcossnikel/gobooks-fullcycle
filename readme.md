@@ -1,7 +1,7 @@
 # Go Intensivo
 
 - Rob Pike e Robert Griesmer
-2007 -> 2009 -> 2012 (1.0)
+  2007 -> 2009 -> 2012 (1.0)
 
 - Suporte robusto para testes
 - Documentação automática
@@ -27,10 +27,10 @@ Simples comando vc ja ve pacotes, versões, vulnerabilidades, correções
 - Porque é performado e eficiente?
   Compilada e gera um único binário
 
-
 ### Concorrência e Multithreading.
-  - Próprio Runtime de memória
-  - Goroutines (2kb) x 2MB
+
+- Próprio Runtime de memória
+- Goroutines (2kb) x 2MB
 
 Da para gerar softwares otimizados que realizam várias tarefas ao mesmo tempo
 
@@ -51,13 +51,13 @@ Toda vez que usa um pacote usa o import.
 
 Você pode declarar o tipo ou fazer atribuição automática
 
-
 Type error no Go
 nil::
 
 Go é data driven -> Não é orientada a objetos, tem estrutura de dados que tem métodos mas tem pegada de estruturação de dados...
 
 Projeto -> API :: CRUD de Livros
+
 - Rest e CLI.
 - Simular que alguém está lendo em x tempo
 - Terminou todos livros -> Avisa que todos foram lidos
@@ -66,6 +66,8 @@ Projeto -> API :: CRUD de Livros
 
 interal -> dentro da aplicação que não compartilha com ninguém
 
-
 GO MOD
 Nome do módulo e versão.
+
+ENCODER -> STRUCT -> JSON
+DECODER JSON -> STRUCT
