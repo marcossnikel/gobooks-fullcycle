@@ -71,3 +71,5 @@ Nome do módulo e versão.
 
 ENCODER -> STRUCT -> JSON
 DECODER JSON -> STRUCT
+
+DIA 2: GO ROUTINAS
